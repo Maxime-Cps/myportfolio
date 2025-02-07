@@ -1,0 +1,242 @@
+.dynamic-box-1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: left;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.dynamic-box-1__text {
+    color: #fafafa;
+    flex: 1;
+    margin-left: 2rem;
+
+}
+
+.dynamic-box-1__text ul {
+    margin-left: 4rem;
+
+}
+
+.dynamic-box-1__img .dynamic-box-1__audio {
+    flex: 1;
+    text-align: right;
+}
+
+.dynamic-box-1__img {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: 100px;
+    justify-content: space-around;
+}
+
+.dynamic-box-2 {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: left;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.dynamic-box-2__text {
+    color: #fafafa;
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.dynamic-box-2__img {
+    flex: 1;
+    text-align: left;
+}
+
+.dynamic-box-2 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.fade-out {
+    animation: fadeOut 2s ease-in-out;
+}
+
+/*
+Videos golf
+ */
+.vids {
+    width: 800px; /* Set the desired width for the container */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensure videos wrap to the next line if needed */
+}
+
+.vids video {
+    width: 300px; /* Set the desired width for the videos */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* -------------------------- */
+/*         image Asso         */
+/* -------------------------- */
+
+#ariane_img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    background-color: #fafafa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.dynamic-box-1__img_title {
+    color: #fafafa;
+    text-align: center;
+}
+
+#core_img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* -------------------------- */
+/* Custom audio player styles */
+/* -------------------------- */
+audio {
+    margin-right: 100px;
+    width: 700px;
+    height: 50px;
+    background: #333;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+.audio-player {
+    margin-bottom: 1rem;
+}
+
+.audio-player p {
+    margin-right: 6rem;
+    color: #fafafa;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #333;
+    border-radius: 20px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-volume-slider {
+    filter: invert(100%);
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: #fafafa;
+}
+
+@media (max-width: 1440px) {
+    #ariane_img, #core_img {
+        width: 100px;
+        height: auto;
+        border-radius: 20px;
+        background-color: #fafafa;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .dynamic-box-1__img_title h1 {
+        color: #fafafa;
+        text-align: center;
+        font-size: 1.25em;
+    }
+
+    .dynamic-box-1__img {
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        justify-content: space-around;
+    }
+
+    .about h3 {
+        font-size: 1em;
+    }
+
+    .page__style h1 {
+        margin-bottom: 10px;
+    }
+
+    audio {
+        width: 100%;
+        height: 30px;
+        background: #333;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        outline: none;
+    }
+
+    .audio-player {
+        margin-bottom: 1rem;
+    }
+
+    .audio-player p {
+        margin-right: 6rem;
+        color: #fafafa;
+    }
+
+    .dynamic-box-1__audio {
+        width: 400px;
+    }
+
+    .vids {
+        position: relative;
+        max-width: 500px;
+        margin: auto;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+
+    .vids video {
+        width: 160px; /* Set the desired width for the videos */
+        height: auto; /* Maintain the aspect ratio */
+        border-radius: 10px; /* Optional: Add rounded corners */
+    }
+}

@@ -1,0 +1,313 @@
+/*------------------
+        Font
+------------------*/
+
+.space-mono-regular {
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.space-mono-bold {
+    font-family: "Space Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.space-mono-regular-italic {
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.space-mono-bold-italic {
+    font-family: "Space Mono", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/*------------------
+        Code
+------------------*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+body {
+    font-family: "Space Mono", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it is above other content */
+}
+
+h3 {
+    font-family: "Space Mono", sans-serif;
+    font-size: 1rem;
+    color: #333;
+    font-style: normal;
+}
+
+.header_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#logo {
+    width: 16rem;
+    height: 4rem;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h1 {
+    color: black;
+    font-family: "Space Mono", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+form label {
+    color: #000000;
+    font-family: "Space Mono", sans-serif;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 50%; /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+    z-index: 1000;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 999; /* Ensure it is below the header but above other content */
+}
+
+#nav {
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+    max-width: 1200px; /* Optionnel : limite la largeur maximale */
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul li button {
+    font-size: 1rem;
+    color: #fafafa;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #252525;
+    background: #252525;
+    box-shadow: 3px 3px #787878;
+    cursor: pointer;
+    margin: 35px 0;
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav ul li button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
+nav ul li button:hover {
+    background: #fafafa;
+    color: #000000;
+    box-shadow: 3px 3px #787878;
+}
+
+.content_first_raw, .content_sec_raw {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+
+#home {
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#home-text {
+    font-family: 'Space Mono', sans-serif; /* Change to your desired font */
+    font-size: 1.2rem; /* Adjust the font size */
+    color: #333; /* Change the text color */
+    line-height: 1.5; /* Adjust the line height for better readability */
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+#home-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-img img {
+    max-width: 20rem;
+    height: auto;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.main-nav-button {
+    font-family: "Space Mono", sans-serif;
+}
+
+.card_display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #fafafa;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+    .header_section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .content_first_raw, .content_sec_raw {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #home-text, #home-img {
+        flex: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 0.5rem;
+    }
+
+    header {
+        padding: 0.5rem;
+    }
+
+    #home-img img {
+        width: 80%;
+    }
+
+    .content_first_raw, .content_sec_raw {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 0.3rem;
+    }
+
+    header {
+        padding: 0.25rem;
+    }
+
+    nav ul li button {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+
+    .content_first_raw, .content_sec_raw {
+        padding: 0.5rem;
+    }
+
+    #home-img img {
+        width: 60%;
+    }
+}

@@ -1,0 +1,30 @@
+$white: #fff;
+$lightgreen: #c8ffcf;
+$green: #39d24a;
+$yellow: #93fff6;
+$grey: #919191;
+
+body {
+  height: 100vh;
+  overflow: hidden;
+
+  // I do like these colours
+  /* background:
+    radial-gradient(circle at bottom, #fff -30%, transparent 70%),
+    linear-gradient(to right, #134a8e, #00b6f1 50%),
+    #fff; */
+
+  background:
+          radial-gradient(circle at bottom, $white, transparent 80%),
+          linear-gradient(to top, #9dff87 0%, transparent 70%),
+          linear-gradient(to bottom, transparent, rgba($white, 0.4) 70%),
+          $lightgreen;
+  animation: bg 30s infinite;
+}
+
+@keyframes bg {
+  0%, 100% { background-color: $lightgreen; }
+  25% { background-color: $green; }
+  50% { background-color: $yellow; }
+  75% { background-color: $grey; }
+}
