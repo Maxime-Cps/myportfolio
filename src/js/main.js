@@ -3,5 +3,5 @@ document.getElementById('cv-button').addEventListener('click', function() {
 });
 
 document.getElementById('github').addEventListener('click', function() {
-    window.open('https://git.unistra.fr/maxime.chapuis', '_blank');
+    window.open('https://github.com/Maxime-Cps', '_blank');
 });
