@@ -32,19 +32,19 @@ document.getElementById('music').addEventListener('click', function() {
             <div class="dynamic-box-1__audio">
                 <div class="audio-player">
                     <p>Titre: ID</p>
-                    <audio src="/audio/Synthwave-ID.wav" controls></audio>
+                    <audio src="audio/Synthwave-ID.wav" controls></audio>
                 </div>
                 <div class="audio-player">
                     <p>Titre: Silence</p>
-                    <audio src="/audio/Silence.wav" controls></audio>
+                    <audio src="audio/Silence.wav" controls></audio>
                 </div>
                 <div class="audio-player">
                     <p>Titre: Next Year</p>
-                    <audio src="/audio/Next-Year.wav" controls></audio>
+                    <audio src="audio/Next-Year.wav" controls></audio>
                 </div>
                 <div class="audio-player">
                     <p>Titre: ID</p>
-                    <audio src="/audio/color-bass-vacs.wav" controls></audio>
+                    <audio src="audio/color-bass-vacs.wav" controls></audio>
                 </div>
             </div>
         </div>
@@ -72,11 +72,11 @@ document.getElementById('sports').addEventListener('click', function() {
             <div class="vids">
             
                         <video class="img-size" muted autoplay loop>
-                            <source src="/vids/swing2.MP4" type="video/mp4">
+                            <source src="vids/swing2.MP4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                         <video class="img-size" muted autoplay loop>
-                            <source src="/vids/swing3.MP4" type="video/mp4">
+                            <source src="vids/swing3.MP4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
             </div>
@@ -110,11 +110,11 @@ document.getElementById('engagements').addEventListener('click', function() {
             </div>
             <div class="dynamic-box-1__img">
                 <div class="dynamic-box-1__img_title">
-                    <img class="img-size" id="ariane_img" src="/img/ariane.png" alt="Dynamic Image">
+                    <img class="img-size" id="ariane_img" src="img/ariane.png" alt="Dynamic Image">
                     <h1>Amicale ARIANE</h1>
                 </div>
                 <div class="dynamic-box-1__img_title">
-                    <img class="img-size" id="core_img" src="/img/core.png" alt="">
+                    <img class="img-size" id="core_img" src="img/core.png" alt="">
                     <h1>Amicale CORE</h1>
                 </div>
             </div>
