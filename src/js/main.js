@@ -1,5 +1,5 @@
 document.getElementById('cv-button').addEventListener('click', function() {
-    window.open('../src/documents/cv.pdf', '_blank');
+    window.open('/documents/cv.pdf', '_blank');
 });
 
 document.getElementById('github').addEventListener('click', function() {

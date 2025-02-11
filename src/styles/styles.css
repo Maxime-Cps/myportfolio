@@ -228,11 +228,21 @@ nav ul li button:hover {
     align-items: center;
 }
 
-#home-img img {
-    max-width: 20rem;
-    height: auto;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+.selfie {
+    width: 303px; /* Ajustez la taille selon vos besoins */
+    height: 403px; /* Ajustez la taille selon vos besoins */
+    border-radius: 50%; /* Pour créer une forme circulaire */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition douce */
+    background-color: #e4e4e4;
 }
+
+.selfie:hover {
+    transform: scale(1.05) rotate(5deg); /* Effet de zoom et légère rotation */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ombre plus prononcée au survol */
+}
+
+
 
 .main-nav-button {
     font-family: "Space Mono", sans-serif;
