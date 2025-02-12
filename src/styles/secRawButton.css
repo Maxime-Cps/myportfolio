@@ -22,6 +22,7 @@
 }
 
 .button_sec_raw svg {
+    fill: #fafafa;
     width: 24px; /* Adjust the size as needed */
     height: 24px; /* Adjust the size as needed */
 }
