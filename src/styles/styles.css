@@ -258,7 +258,58 @@ nav ul li button:hover {
     transition: background-color 1s ease-in-out, color 1s ease-in-out;
 }
 
+/* Projects styles */
+
+.project-displayer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #fafafa;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    background: #333;
+    border-radius: 20px;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+#project1 {
+    background-image: url("src/img/t3_1.png"); /* Set the background image */
+    background-size: cover; /* Ensure the image covers the entire box */
+    background-position: center; /* Center the image */
+}
+
+.project-box img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+}
+
 /* Media queries for responsiveness */
+@media (max-width: 1600px) {
+    .project-box {
+        width: 250px;
+        height: 250px;
+    }
+}
+
 @media (max-width: 1024px) {
     .header_section {
         flex-direction: column;
