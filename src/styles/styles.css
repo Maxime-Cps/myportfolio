@@ -228,13 +228,21 @@ nav ul li button:hover {
     align-items: center;
 }
 
+#imgframe {
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); /* Pour créer une forme de losange */
+}
+
 .selfie {
-    width: 303px; /* Ajustez la taille selon vos besoins */
-    height: 403px; /* Ajustez la taille selon vos besoins */
-    border-radius: 50%; /* Pour créer une forme circulaire */
+    width: 375px; /* Ajustez la taille selon vos besoins */
+    height: 503px; /* Ajustez la taille selon vos besoins */
+
+    background: linear-gradient(to bottom, white, black); /* Dégradé du blanc en haut au noir vers le bas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition douce */
-    background-color: #e4e4e4;
 }
 
 .selfie:hover {
