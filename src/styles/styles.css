@@ -304,6 +304,10 @@ nav ul li button:hover {
 
 /* Media queries for responsiveness */
 @media (max-width: 1600px) {
+    .project-displayer {
+        margin-top: 20px;
+    }
+
     .project-box {
         width: 250px;
         height: 250px;
