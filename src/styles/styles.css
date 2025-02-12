@@ -275,8 +275,8 @@ nav ul li button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
     margin: 20px;
     padding: 20px;
     background: #333;
@@ -293,8 +293,8 @@ nav ul li button:hover {
 }
 
 .project-box img {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     margin-bottom: 10px;
 }
 
@@ -311,6 +311,12 @@ nav ul li button:hover {
     .project-box {
         width: 250px;
         height: 250px;
+    }
+
+    .project-box img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
     }
 }
 
