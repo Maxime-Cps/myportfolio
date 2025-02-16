@@ -97,11 +97,11 @@ document.getElementById('engagements').addEventListener('click', function() {
             </div>
             <div class="dynamic-box-1__img">
                 <div class="dynamic-box-1__img_title">
-                    <img class="img-size" id="ariane_img" src="img/ariane.png" alt="Dynamic Image">
+                    <img class="img-size" id="ariane_img" src="images/ariane.png" alt="Dynamic Image">
                     <h1>Amicale ARIANE</h1>
                 </div>
                 <div class="dynamic-box-1__img_title">
-                    <img class="img-size" id="core_img" src="img/core.png" alt="">
+                    <img class="img-size" id="core_img" src="images/core.png" alt="">
                     <h1>Amicale CORE</h1>
                 </div>
             </div>
