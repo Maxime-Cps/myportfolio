@@ -137,15 +137,6 @@ Videos golf
 /* -------------------------- */
 /* Custom audio player styles */
 /* -------------------------- */
-audio {
-    margin-right: 100px;
-    width: 700px;
-    height: 50px;
-    background: #333;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    outline: none;
-}
 
 .audio-player {
     margin-bottom: 1rem;
@@ -201,24 +192,6 @@ audio::-webkit-media-controls-time-remaining-display {
 
     .page__style h1 {
         margin-bottom: 10px;
-    }
-
-    audio {
-        width: 100%;
-        height: 30px;
-        background: #333;
-        border-radius: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        outline: none;
-    }
-
-    .audio-player {
-        margin-bottom: 1rem;
-    }
-
-    .audio-player p {
-        margin-right: 6rem;
-        color: #fafafa;
     }
 
     .dynamic-box-1__audio {

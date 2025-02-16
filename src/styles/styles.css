@@ -199,7 +199,7 @@ nav ul li button:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    padding: 2rem;
+    padding: 10px 2rem 2rem;
 }
 
 
@@ -229,24 +229,18 @@ nav ul li button:hover {
 }
 
 #imgframe {
-    width: 400px;
+    width: 500px;
     height: 500px;
-    border-radius: 50%;
-    overflow: hidden;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); /* Pour créer une forme de losange */
-}
+    overflow: hidden;}
 
 .selfie {
-    width: 375px; /* Ajustez la taille selon vos besoins */
-    height: 503px; /* Ajustez la taille selon vos besoins */
-
-    background: linear-gradient(to bottom, white, black); /* Dégradé du blanc en haut au noir vers le bas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+    width: 500px; /* Ajustez la taille selon vos besoins */
+    height: 500px; /* Ajustez la taille selon vos besoins */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition douce */
 }
 
 .selfie:hover {
-    transform: scale(1.05) rotate(5deg); /* Effet de zoom et légère rotation */
+    transform: scale(1.05); /* Effet de zoom et légère rotation */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ombre plus prononcée au survol */
 }
 
@@ -295,7 +289,7 @@ nav ul li button:hover {
 }
 
 #project1 {
-    background-image: url("src/img/t3_1.png"); /* Set the background image */
+    background-image: url("../images/t3_1.png"); /* Set the background image */
     background-size: cover; /* Ensure the image covers the entire box */
     background-position: center; /* Center the image */
 }
@@ -330,6 +324,11 @@ nav ul li button:hover {
         width: 150px;
         height: 150px;
         margin-bottom: 10px;
+    }
+
+    #project4 img {
+        width: 250px;
+        height: 250px;
     }
 }
 

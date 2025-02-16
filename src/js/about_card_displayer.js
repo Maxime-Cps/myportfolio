@@ -27,24 +27,11 @@ document.getElementById('music').addEventListener('click', function() {
                 <p>J'ai eu l'occasion, en 2021, de faire une tournée dans la région Haut-de-France dans trois villes différentes.</p>
                 <p>J'ai été également DJ pour plusieurs événements sur le Campus d'Illkirch de Strasbourg pendant ma formation en Informatique.</p>
                 <br>
-                <p>Vous trouverez à droite quelques-uns de mes projets :</p>
+                <p>Vous trouverez à droite un lien vers une playlist de quelques-uns de mes projets :</p>
             </div>
             <div class="dynamic-box-1__audio">
-                <div class="audio-player">
-                    <p>Titre: ID</p>
-                    <audio src="audio/Synthwave-ID.wav" controls></audio>
-                </div>
-                <div class="audio-player">
-                    <p>Titre: Silence</p>
-                    <audio src="audio/Silence.wav" controls></audio>
-                </div>
-                <div class="audio-player">
-                    <p>Titre: Next Year</p>
-                    <audio src="audio/Next-Year.wav" controls></audio>
-                </div>
-                <div class="audio-player">
-                    <p>Titre: ID</p>
-                    <audio src="audio/color-bass-vacs.wav" controls></audio>
+                <div class="audioPlayer">
+                    <button><a href="/audioPlayer.html">MESSMOCKY's Playlist</a></button>
                 </div>
             </div>
         </div>
@@ -142,26 +129,5 @@ document.getElementById('languages').addEventListener('click', function() {
     `;
 });
 
-function showSlide(index) {
-    const slides = document.querySelectorAll('.carousel-item');
-    if (index >= slides.length) {
-        currentIndex = 0;
-    } else if (index < 0) {
-        currentIndex = slides.length - 1;
-    } else {
-        currentIndex = index;
-    }
-    const offset = -currentIndex * 100;
-    document.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
-}
 
-function nextSlide() {
-    showSlide(currentIndex + 1);
-}
 
-function prevSlide() {
-    showSlide(currentIndex - 1);
-}
-
-document.querySelector('.carousel-control.next').addEventListener('click', nextSlide);
-document.querySelector('.carousel-control.prev').addEventListener('click', prevSlide);
