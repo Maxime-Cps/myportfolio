@@ -15,14 +15,14 @@ const durTime = document.querySelector('#durTime');
 const songs = ['Harmonic-Rainbows', 'Home', 'Next-Year', 'Silence', 'MEMESTEP', 'Nostalgia', 'Stratos', 'Synthwave'];
 
 // Keep track of song
-let songIndex = 2;
+let songIndex = 1;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
 
 // Update song details
 function loadSong(song) {
-    title.innerText = song;
+    title.innerText = song + ' - MESSMOCKY';
     audio.src = `music/${song}.wav`;
     cover.src = `images/messmocky.png`;
 }

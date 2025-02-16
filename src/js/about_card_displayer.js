@@ -31,7 +31,7 @@ document.getElementById('music').addEventListener('click', function() {
             </div>
             <div class="dynamic-box-1__audio">
                 <div class="audioPlayer">
-                    <button><a href="/audioPlayer.html">MESSMOCKY's Playlist</a></button>
+                    <button id="btnPlaylist"><a href="/audioPlayer.html">MESSMOCKY's Playlist</a></button>
                 </div>
             </div>
         </div>

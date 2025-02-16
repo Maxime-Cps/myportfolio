@@ -19,6 +19,12 @@
 
 }
 
+.dynamic-box-1__audio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .dynamic-box-1__text ul {
     margin-left: 4rem;
 

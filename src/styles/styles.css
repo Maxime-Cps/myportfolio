@@ -66,6 +66,31 @@ h3 {
     font-style: normal;
 }
 
+#btnPlaylist {
+    font-family: "Space Mono", sans-serif;
+    font-size: 1rem;
+    color: #fafafa;
+    text-transform: uppercase;
+    height: 70px;
+    width: 150px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #252525;
+    background: #252525;
+    box-shadow: 3px 3px #787878;
+    cursor: pointer;
+    margin: 35px 0;
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#btnPlaylist:hover #btnPlaylist a:hover {
+    background: #fafafa;
+    color: #000000;
+    box-shadow: 3px 3px #787878;
+    text-decoration: none;
+}
+
+
 .header_section {
     display: flex;
     justify-content: space-between;
