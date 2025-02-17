@@ -27,6 +27,17 @@
     height: 24px; /* Adjust the size as needed */
 }
 
+#sendEmail svg {
+    fill: #ffffff; /* Blanc par défaut */
+    transition: fill 400ms;
+}
+
+#sendEmail:hover svg {
+    fill: black; /* Noir au survol */
+    color: black;
+    background-color: transparent;
+}
+
 .button_sec_raw svg path {
     transition: 400ms;
 }
