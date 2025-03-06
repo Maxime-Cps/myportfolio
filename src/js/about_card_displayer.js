@@ -113,17 +113,36 @@ document.getElementById('languages').addEventListener('click', function() {
     const dynamicContent = document.getElementById('dynamic-content');
     dynamicContent.innerHTML = `
         <div class="dynamic-box-1 fade-in">
-            <div class="dynamic-box-1__text">
+            <div class="dynamic-box-1__lang">
                 <h2>Langues</h2>
+                <br>
                 <p>Je sais parler actuellement 3 langues :</p>
-                <ul>
-                    <li>Le Français, ma langue maternelle</li>
-                    <li>L'Anglais, que je parle de manière fluide, je la pratique depuis le primaire.</li>
-                    <li>L'Allemand, que j'ai pratiqué de la 4ᵉ à la Terminale. Mon niveau est plutôt basique</li>
-                </ul>
-            </div>
-            <div class="dynamic-box-1__img">
-                <img class="img-size" src="path/to/your/image.jpg" alt="Dynamic Image">
+                <br>
+                <div class="dynamic-box-1__lang_desc">
+                    <div class="lang_box french">
+                        <img id="frflag" src="images/france.png" alt="French Flag">
+                        <p>
+                            Le Français, ma langue maternelle.
+                        </p>
+                        <img class="progbar" src="images/progbar_fr.png" alt="Progress Bar">
+                    </div>
+                    <br>
+                    <div class="lang_box english">
+                        <img id="engflag" src="images/anglais.png" alt="English Flag">
+                        <p>
+                            L'Anglais, que je parle de manière fluide, je la pratique depuis le primaire.
+                        </p>
+                        <img class="progbar" src="images/progbar_eng.png" alt="Progress Bar">
+                    </div>
+                    <br>
+                    <div class="lang_box german">
+                        <img id="gerflag" src="images/allemand.png" alt="German Flag">
+                        <p>
+                            L'Allemand, que j'ai pratiqué de la 4ᵉ à la Terminale. Mon niveau est plutôt basique.
+                        </p>
+                        <img class="progbar" src="images/progbar_ger.png" alt="Progress Bar">
+                    </div>
+                </div>
             </div>
         </div>
     `;
