@@ -1,0 +1,49 @@
+.experience-displayer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background: #726464;
+    margin-bottom: 50px;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+    padding: 10px; /* Add padding to the container */
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+}
+
+.experience-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px; /* Adjust width to fit more items in a row */
+    height: 50px; /* Adjust height to fit the menu bar style */
+    margin: 0 10px; /* Adjust margin for spacing between items */
+    background: #333;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.experience-box h2 {
+    font-size: 1rem; /* Adjust font size as needed */}
+
+.experience-box:hover {
+    background-color: #fafafa;
+    color: #333; /* Adjust the text color as needed */
+}
+
+#inter {
+
+}
+
+#resto {
+
+}
+
+#rectorat {
+
+}
+
+#capcod {
+
+}

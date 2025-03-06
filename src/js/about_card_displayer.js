@@ -119,7 +119,7 @@ document.getElementById('languages').addEventListener('click', function() {
                 <ul>
                     <li>Le Français, ma langue maternelle</li>
                     <li>L'Anglais, que je parle de manière fluide, je la pratique depuis le primaire.</li>
-                    <li>L'Allemand, que je pratique depuis la </li>
+                    <li>L'Allemand, que j'ai pratiqué de la 4ᵉ à la Terminale. Mon niveau est plutôt basique</li>
                 </ul>
             </div>
             <div class="dynamic-box-1__img">
