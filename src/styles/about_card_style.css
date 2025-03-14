@@ -232,7 +232,7 @@ audio::-webkit-media-controls-time-remaining-display {
     color: #fafafa;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1920px) {
     #ariane_img, #core_img {
         width: 100px;
         height: auto;
